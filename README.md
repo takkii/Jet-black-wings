@@ -5,7 +5,7 @@ Use dein toml files
 ```ruby
 
 [[plugins]]
-repo = 'takkii/totolot'
+repo = 'takkii/Jet-black-wings'
 build = 'ruby install.rb'
 
 ```
