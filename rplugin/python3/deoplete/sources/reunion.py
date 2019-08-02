@@ -7,7 +7,7 @@ from os.path import expanduser
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
 home = expanduser("~")
-ruby = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/Jet-black-wings/autoload/source/ruby_methods"))
+ruby = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/Jet-black-wings/complete/ruby_methods"))
 index_ruby = ruby.readlines()
 data_ruby = list(map(lambda s:s.rstrip(),index_ruby))
 ruby.close()
