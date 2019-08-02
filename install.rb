@@ -1,8 +1,16 @@
 #!/usr/bin/ruby
 
+class Dark
+  def black
+    Dir.mkdir('.complete', perm = 0o777) unless FileTest.exist?('.complete')
+  end
+end
+
+Dark.new.black
+
 class White
   def magic
-    File.open('$HOME/.config/nvim/.cache/dein/repos/github.com/takkii/Jet-black-wings/autoload/source/ruby_methods', 'a:utf-8', perm = 0o777) do |f|
+    File.open('.complete/ruby_methods', 'a:utf-8', perm = 0o777) do |f|
       f.puts Class.methods
     end
   end
