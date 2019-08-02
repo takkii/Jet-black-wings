@@ -2,6 +2,7 @@
 
 class Dark
   def black
+    Dir.mkdir('~/.config/nvim/.cache/dein/repos/github.com/takkii/Jet-black-wings/autoload', perm = 0o777) unless FileTest.exist?('~/.config/nvim/.cache/dein/repos/github.com/takkii/Jet-black-wings/autoload')
     Dir.mkdir('~/.config/nvim/.cache/dein/repos/github.com/takkii/Jet-black-wings/autoload/source', perm = 0o777) unless FileTest.exist?('~/.config/nvim/.cache/dein/repos/github.com/takkii/Jet-black-wings/autoload/source')
   end
 end
