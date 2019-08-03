@@ -11,7 +11,7 @@ Dark.new.black
 class White
   def magic
     File.open('complete/ruby_methods', 'a:utf-8', perm = 0o777) do |f|
-      f.puts Class.methods
+      f.puts (Class.methods + Object.methods).sort.uniq
     end
   end
 end
