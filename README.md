@@ -31,6 +31,7 @@ build = 'ruby install.rb'
 
 ```markdown
 
+・[JUDGEMENT_NIGHT_OF!]と表示されます。
 ・Rubyのメソッドを書き出し保存後、Pythonで読み込んでいます。
 
 ```
