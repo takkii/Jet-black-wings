@@ -1,5 +1,18 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)[![GitHub release](https://img.shields.io/github/release/takkii/Jet-black-wings.svg?style=flat)](GitHub)[![GitHub Status](https://img.shields.io/github/last-commit/takkii/Jet-black-wings.svg?style=flat)](GitHub)
 
+```markdown
+
+俺の名前は漆黒の翼だ。
+ダークリユニオンとの戦いが始まったんだ。
+武器は右手に封じられし、闇の力。
+魔眼である右目がうずく。
+世界を守るため、立ち上がった。
+これから冒険は続いていく。
+
+```
+
+[使い方]
+
 Use dein toml files
 
 ```ruby
@@ -10,4 +23,8 @@ build = 'ruby install.rb'
 
 ```
 
-a few Dark power plugins.
+A Few Dark Power Plugins.
+
+[役割]
+
+>・Rubyのクラスを書き出し保存後、Pythonで読み込んでいます。
