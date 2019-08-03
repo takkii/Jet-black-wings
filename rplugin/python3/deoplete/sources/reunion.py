@@ -14,6 +14,7 @@ new_ruby = ruby.readlines()
 index_ruby = new_ruby + just_ruby
 data_ruby = list(map(lambda s:s.rstrip(),index_ruby))
 ruby.close()
+ruby_lib.close()
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
