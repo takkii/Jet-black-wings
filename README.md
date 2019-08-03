@@ -34,6 +34,7 @@ build = 'ruby install.rb'
 ・[JUDGEMENT_NIGHT_OF!]と表示されます。
 ・autoloadフォルダに既存のメソッド一覧を追加。
 ・Rubyのメソッドを書き出し保存→読み込み。
+・既存のファイルはるりまに準拠しています。
 
 ```
 
