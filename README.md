@@ -32,7 +32,8 @@ build = 'ruby install.rb'
 ```markdown
 
 ・[JUDGEMENT_NIGHT_OF!]と表示されます。
-・Rubyのメソッドを書き出し保存後、Pythonで読み込んでいます。
+・autoloadフォルダに既存のメソッド一覧を追加。
+・Rubyのメソッドを書き出し保存→読み込み。
 
 ```
 
@@ -40,6 +41,7 @@ build = 'ruby install.rb'
 
 ```markdown
 
-・Ruby用入力補完辞書を作成・編集しないためエコシステムです。
+・Ruby用入力補完辞書のエコシステムです。
+出力から一覧を作り、辞書に手を加えないようにしています。
 
 ```
