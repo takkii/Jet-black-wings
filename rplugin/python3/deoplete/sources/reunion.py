@@ -9,7 +9,9 @@ from os.path import expanduser
 home = expanduser("~")
 ruby = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/Jet-black-wings/complete/ruby_methods"))
 ruby_lib = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/Jet-black-wings/autoload/source/ruby_list"))
-index_ruby = ruby.readlines() + ruby_lib.readline()
+just_ruby = ruby_lib.readline()
+new_ruby = ruby.readlines()
+index_ruby = new_ruby + just_ruby
 data_ruby = list(map(lambda s:s.rstrip(),index_ruby))
 ruby.close()
 
