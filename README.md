@@ -23,11 +23,15 @@ build = 'ruby install.rb'
 
 ```
 
-A Few Dark Power Plugins.
+*A Few Dark Power Plugins.*
 
 [役割]
 
->・Rubyのクラスを書き出し保存後、Pythonで読み込んでいます。
+```markdown
+
+・Rubyのクラスを書き出し保存後、Pythonで読み込んでいます。
+
+```
 
 [詳細]
 
