@@ -17,9 +17,9 @@ ruby.close()
 class Source(Base):
     def __init__(self, vim):
         super().__init__(vim)
-        self.name = 'totolot'
+        self.name = 'Jet-black-wings'
         self.filetypes = ['ruby']
-        self.mark = '[JUDGEMENT_NIGHT_OF!!!]'
+        self.mark = '[JUDGEMENT_NIGHT_OF!]'
         rubymatch = [r'\.[a-zA-Z0-9_?!]*|[a-zA-Z]\w*::\w*']
         regexmatch = [r'[<a-zA-Z(?: .+?)?>.*?<\/a-zA-Z>]']
         self.input_pattern = '|'.join(rubymatch + regexmatch)
