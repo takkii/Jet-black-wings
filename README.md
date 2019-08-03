@@ -31,7 +31,7 @@ build = 'ruby install.rb'
 
 ```markdown
 
-・Rubyのクラスを書き出し保存後、Pythonで読み込んでいます。
+・Rubyのメソッドを書き出し保存後、Pythonで読み込んでいます。
 
 ```
 
@@ -39,6 +39,6 @@ build = 'ruby install.rb'
 
 ```markdown
 
-・Ruby用入力補完辞書を編集したりしないためエコシステムです。
+・Ruby用入力補完辞書を作成・編集しないためエコシステムです。
 
 ```
