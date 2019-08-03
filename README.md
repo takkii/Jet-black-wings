@@ -28,3 +28,11 @@ A Few Dark Power Plugins.
 [役割]
 
 >・Rubyのクラスを書き出し保存後、Pythonで読み込んでいます。
+
+[詳細]
+
+```markdown
+
+・Ruby用入力補完辞書を編集したりしないためエコシステムです。
+
+```
