@@ -8,7 +8,8 @@ from os.path import expanduser
 
 home = expanduser("~")
 ruby = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/Jet-black-wings/complete/ruby_methods"))
-index_ruby = ruby.readlines()
+ruby_lib = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/Jet-black-wings/autoload/source/ruby_list"))
+index_ruby = ruby.readlines() + ruby_lib.readline()
 data_ruby = list(map(lambda s:s.rstrip(),index_ruby))
 ruby.close()
 
