@@ -7,8 +7,19 @@ from os.path import expanduser
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
 home = expanduser("~")
-ruby = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/Jet-black-wings/complete/ruby_methods"))
-ruby_lib = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/Jet-black-wings/autoload/source/ruby_list"))
+
+d1 = os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/Jet-black-wings")
+d2 = os.path.expanduser("~/.cache/dein/repos/github.com/takkii/Jet-black-wings")
+
+if os.path.exists(d1):
+    ruby = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/Jet-black-wings/complete/ruby_methods"))
+    ruby_lib = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/Jet-black-wings/autoload/source/ruby_list"))
+elif os.path.exists(d2):
+    ruby = open(os.path.expanduser("~/.cache/dein/repos/github.com/takkii/Jet-black-wings/complete/ruby_methods"))
+    ruby_lib = open(os.path.expanduser("~/.cache/dein/repos/github.com/takkii/Jet-black-wings/autoload/source/ruby_list"))
+else:
+    print("Don't forget, Install dein plugin manager github repo")
+
 just_ruby = ruby_lib.readlines()
 new_ruby = ruby.readlines()
 index_ruby = new_ruby + just_ruby
