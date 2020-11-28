@@ -48,3 +48,5 @@ build = 'ruby install.rb'
 出力から一覧を作り、辞書に手を加えないようにしています。
 
 ```
+
+_※ 現在は使用を推奨しなくなりました。totolotとruby-dictionary3にまとめてあります_
